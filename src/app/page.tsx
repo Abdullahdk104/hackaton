@@ -6,10 +6,9 @@ import Editors from "./components/editorspicksection";
 import HeroSection from "./components/HeroSection";
 import ProductCard from "./components/Products";
 import TopNavbar from "./components/TopNavbar";
-import WhiteSection from "./components/WhiteSection";
 import Blog from "./components/Blog";
-import GreenSection from "./components/GreenSection";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
+
 
 export default function Home() {
   return (

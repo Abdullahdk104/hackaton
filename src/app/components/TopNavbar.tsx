@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+
 import {
   FaFacebook,
   FaInstagram,
@@ -16,12 +16,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 
 export default function Header() {
-  // State for mobile menu toggle
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">

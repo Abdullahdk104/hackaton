@@ -1,7 +1,16 @@
 import React from "react";
 import Image from "next/image"; // Ensure you import Image from 'next/image'
 
-const ButtonWithImage = ({ imageSrc, buttonText, altText, width, height }) => (
+interface ButtonWithImageProps {
+  imageSrc: string;
+  buttonText: string;
+  altText: string;
+  width: number;
+  height: number;
+}
+
+
+const ButtonWithImage: React.FC<ButtonWithImageProps> = ({ imageSrc, buttonText, altText, width, height }) => (
   <div className="relative w-full h-full">
     <Image
       src={imageSrc}
