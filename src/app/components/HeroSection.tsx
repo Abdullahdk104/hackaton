@@ -8,8 +8,9 @@ const Navbar = () => {
       <Image
         src="/shop-hero-1-product-slide-1.jpg" // Correct path from the public folder
         alt="couple"
-        layout="fill" // Fill the container
-        className="object-cover absolute inset-0" // Ensure the image fills the space without distortion
+       height={'1000'}
+        width={'1000'}
+        className="w-full h-full object-cover absolute inset-0" // Ensure the image fills the space without distortion
       />
       
       {/* Text Section */}
