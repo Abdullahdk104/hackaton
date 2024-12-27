@@ -1,7 +1,7 @@
 "use client"; // Add this directive at the top of the file
 import Image from 'next/image';
 
-const Navbar = () => {
+const HeroSection = () => {
   return (
     <div className="relative w-full h-[400px] lg:h-[682px]">
       {/* Image with optimization */}
@@ -40,4 +40,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default HeroSection;
