@@ -5,15 +5,16 @@ const Navbar = () => {
   return (
     <div className="relative w-full h-[400px] lg:h-[682px]">
       {/* Image with optimization */}
-      <Image
-        src="/shop-hero-1-product-slide-1.jpg" // Correct path from the public folder
-        alt="couple"
-        height={682} // Set height to match your container
-        width={1920} // Use a larger width for better resolution
-        className="w-full h-full object-cover absolute inset-0" // Ensure the image fills the space without distortion
-        quality={90} // Increase image quality (default is 75)
-      />
-      
+         <Image
+          src="/shop-hero-1-product-slide-1.jpg"
+          alt="couple"
+          height={1080}
+          width={1920}
+          quality={100}
+          className="w-full h-full object-cover absolute inset-0"
+        />
+        
+              
       {/* Text Section */}
       <div className="ml-40 font-semibold absolute inset-0 flex flex-col justify-center items-center lg:items-start text-center lg:text-left px-5 lg:px-10 text-[#fffdfd]">
         <h5 className="mb-9 text-[14px] lg:text-[16px] font-Montserrat font-bold leading-[24px] text-[#fffdfd] ">
