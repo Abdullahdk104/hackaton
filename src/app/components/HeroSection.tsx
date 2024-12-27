@@ -29,7 +29,7 @@ const HeroSection = () => {
         </h4>
 
         {/* Button Section */}
-        <div className="flex flex-wrap justify-center lg:justify-start gap-2.5 mt-5">
+        <div className="flex flex-wrap justify-center lg:justify-start gap-2.5 mt-5 hover:gray">
           <button className="w-[140px] lg:w-[156px] h-[52px] rounded-[5px] py-3 px-5 lg:px-10 bg-green-500 flex justify-center items-center">
             <h1 className="text-sm font-Montserrat font-bold text-white">
               BUY NOW
